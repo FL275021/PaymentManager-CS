@@ -28,7 +28,7 @@ A JWT is a self-contained token that encapsulates information for an API resourc
 <img width="1594" height="723" alt="Editar Pago Recurrente" src="https://github.com/user-attachments/assets/12c26cfc-cc00-41ff-8814-f767be3f9d1b" />
 <img width="1590" height="729" alt="Editar Pago Unico" src="https://github.com/user-attachments/assets/8552b27e-6ae1-46ce-8ff4-a52368816204" />
 <img width="1598" height="729" alt="Detalles Pago" src="https://github.com/user-attachments/assets/1a62a5fa-eff8-4a09-a2f0-2575f55f0761" />
-<img width="1594" height="729" alt="Delete PAgo" src="https://github.com/user-attachments/assets/26a94800-cd2f-42f7-8f7a-2b8b58844b4e" />
+
 
 
 
