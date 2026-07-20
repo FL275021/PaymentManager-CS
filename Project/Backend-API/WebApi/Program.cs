@@ -31,7 +31,9 @@ namespace WebApi
 
 
             /////////////////////////////////////////////////////////////////
-            var clave = Encoding.ASCII.GetBytes("ZWRpw6fDo28gZW0gY29tcHV0YWRvcmE=");
+            var secretKey = builder.Configuration["SecretTokenKey"]
+                ?? throw new InvalidOperationException("SecretTokenKey is not configured. Set it via appsettings, an environment variable, or user-secrets.");
+            var clave = Encoding.ASCII.GetBytes(secretKey);
             builder.Services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
