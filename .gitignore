@@ -1,3 +1,36 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Publish profiles (keep the .pubxml, drop the machine-specific .user files)
+*.pubxml.user
+
+# Rider / VS Code
+.idea/
+*.swp
+
+# Front-end vendored libraries (restored via libman/npm, not committed)
+Project/Frontend-MVC-Client/WebMVC/wwwroot/lib/
+
+# Local secrets - never commit real connection strings or keys
+appsettings.Development.json
+appsettings.Local.json
+*.pfx
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Personal deliverables (kept from original .gitignore)
 /CheckList2.pdf
 /CheckListObligatorio1.pdf
 /Integrador
